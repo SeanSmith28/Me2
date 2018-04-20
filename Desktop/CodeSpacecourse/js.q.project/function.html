@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+
+  <script type="text/javascript">
+
+    function addVat(amount){
+
+
+        const vat_rate = 0.15;
+
+        let final_amount = amount + (amount * vat_rate);
+
+        return final_amount;
+    }
+
+        let product_price = 50.00;
+        let product_plus_vat = addVat(product_price);
+
+        let product_price_2 = 200.00;
+        let product_plus_2_vat = addVat(product_price_2);
+
+
+    function getQuestions(){
+      return [
+    }
+    let question = [
+      {
+        question: 'how much is it?',
+        answer : [
+          'some',
+          'all',
+          'none',
+        ],
+        correct_answer : '1'
+      },
+    ]
+  ]
+
+  let quiz_questions = getQuestions
+
+  let answers = get_answers(); [2,4,3,2,5]
+
+  function scoreQuiz(quiz_questions,answers){
+    for (variable of answers) {
+      if(correct){total_correct ++1;
+      }
+    }
+  }
+
+//     function toaster(input, temp){
+//
+//       // take 'input' and toast
+// if(temp ==3){
+//   // burn the input
+// }else if(temp == 2){
+//   // medium warm input
+// }else{
+//   // lightly warm
+//   // return toasted input
+// // }
+//
+//     }
+//
+//     // toaster('bread',3);
+//     // toaster('roll',1);
+    // toaster('waffle',2)
+  </script>
+</html>
